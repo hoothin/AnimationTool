@@ -11,6 +11,7 @@
 	<window background="#000000" fps="60" />
 	<window width="800" height="580" unless="mobile" />
 	<window orientation="landscape" vsync="false" antialiasing="0" if="cpp" />
+	<window fullscreen="false" resizable="false" borderless="false"/>
 	
 	<!-- classpath, haxe libs -->
 	<ndll name="systools" haxelib="systools" />
@@ -18,7 +19,6 @@
 	<set name="openfl-legacy" />
 	<haxelib name="openfl" />
 	<haxelib name="actuate" />
-	<haxelib name="format" />
 	<haxelib name="systools" />
 	
 	<!-- assets -->

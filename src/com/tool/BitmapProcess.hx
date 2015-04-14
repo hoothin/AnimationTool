@@ -1,6 +1,5 @@
 package com.tool;
 import com.tool.vo.ImgStoreData;
-import haxe.io.Bytes;
 import openfl.display.BitmapData;
 import openfl.display.PNGEncoderOptions;
 import openfl.errors.Error;

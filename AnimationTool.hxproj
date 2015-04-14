@@ -19,14 +19,13 @@
     <class path="D:\Environment\HaxeToolkit\haxe\lib\openfl\3,0,1" />
     <class path="D:\Environment\HaxeToolkit\haxe\lib\lime\2,3,1" />
     <class path="D:\Environment\HaxeToolkit\haxe\lib\actuate\1,8,4" />
-    <class path="D:\Environment\HaxeToolkit\haxe\lib\format\3,1,2" />
     <class path="D:\Environment\HaxeToolkit\haxe\lib\systools\1,1,0" />
     <class path="src" />
     <class path="bin\windows\neko\haxe" />
   </classpaths>
   <!-- Build options -->
   <build>
-    <option directives="openfl=3.0.1&#xA;lime=2.3.1&#xA;actuate=1.8.4&#xA;format=3.1.2&#xA;systools=1.1.0&#xA;openfl-next&#xA;tools=2.3.1&#xA;no-compilation&#xA;native&#xA;lime-native&#xA;openfl-native&#xA;windows&#xA;desktop" />
+    <option directives="openfl=3.0.1&#xA;lime=2.3.1&#xA;actuate=1.8.4&#xA;systools=1.1.0&#xA;openfl-next&#xA;tools=2.3.1&#xA;no-compilation&#xA;native&#xA;lime-native&#xA;openfl-native&#xA;windows&#xA;desktop" />
     <option flashStrict="False" />
     <option noInlineOnDebug="False" />
     <option mainClass="ApplicationMain" />
