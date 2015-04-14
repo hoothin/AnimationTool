@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<!-- NMML reference: https://gist.github.com/1763850 -->
+	
+	<!-- metadata, make sure 'package' is at least 3 segments (ie. com.mycompany.myproject) -->
+	<meta title="AnimationTool" package="AnimationTool" version="1.0.0" company="Hoothin" />
+	
+	<!-- output -->
+	<app main="Main" file="AnimationTool" path="bin" />
+	
+	<window background="#000000" fps="60" />
+	<window width="800" height="580" unless="mobile" />
+	<window orientation="landscape" vsync="false" antialiasing="0" if="cpp" />
+	
+	<!-- classpath, haxe libs -->
+	<ndll name="systools" haxelib="systools" />
+	<source path="src" />
+	<set name="openfl-legacy" />
+	<haxelib name="openfl" />
+	<haxelib name="actuate" />
+	<haxelib name="format" />
+	<haxelib name="systools" />
+	
+	<!-- assets -->
+	<icon path="assets/openfl.svg" />
+	<!--assets path="assets/img" rename="img" /-->
+	<assets path="assets" rename="assets" unless="android" />
+	
+	<!-- optimize output
+	<haxeflag name="-dce full" /> -->
+	
+</project>

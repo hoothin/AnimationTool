@@ -1,0 +1,2 @@
+tpbin>D:/Program Files/TexturePacker3.1.2 Essential/x86/bin/TexturePacker.exe
+output>d:/test/
