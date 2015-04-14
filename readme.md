@@ -1,7 +1,9 @@
 #AnimationTool
+When pack image with [TexturePacker](https://www.codeandweb.com/texturepacker),if you choose trim the transparent,the info of every image's position will lose
+
 AnimationTool is a tool for generate animation config to pack with [TexturePacker](https://www.codeandweb.com/texturepacker).
 
-It cut the bitmap without transparent area,and save the offset to xml for animation to location itself.
+It trim the bitmap without transparent area,and save the offset to xml for animation to location itself.
 
 It's wirte base on Haxe 3 and OpenFL/Lime.
 
