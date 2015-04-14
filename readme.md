@@ -10,7 +10,7 @@ It's wirte base on Haxe 3 and OpenFL/Lime.
 ##usage
 + Modify the [ParhConfig.txt](assets/PathConfig.txt) and set the `tpbin` to texturepacker dir,`output` is the dir where you wish generate file.
 + Select a folder to begin
-+ You will get a xml about offset under effect,a xml about all animation collection and a png pack by texturepacker,the processPath is temp for cut single image and should ignore
++ You will get a xml about offset under **root/effect**,a xml about all animation collection under **root** and a png pack by texturepacker under *root/effect*,the **processPath** is temp for cut single image and should ignore
 
 ##attention
 + You must enable the command mode of TexturePacker
